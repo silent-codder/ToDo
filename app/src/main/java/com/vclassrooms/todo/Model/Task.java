@@ -1,4 +1,4 @@
-package com.example.todo.Model;
+package com.vclassrooms.todo.Model;
 
 public class Task {
     private String Title;

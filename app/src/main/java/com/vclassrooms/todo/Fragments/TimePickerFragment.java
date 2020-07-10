@@ -1,4 +1,4 @@
-package com.example.todo.Fragments;
+package com.vclassrooms.todo.Fragments;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -9,7 +9,7 @@ import android.widget.TimePicker;
 
 import androidx.fragment.app.DialogFragment;
 
-import com.example.todo.R;
+import com.vclassrooms.todo.R;
 
 import java.util.Calendar;
 

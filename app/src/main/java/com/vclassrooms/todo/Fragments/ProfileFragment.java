@@ -1,4 +1,4 @@
-package com.example.todo.Fragments;
+package com.vclassrooms.todo.Fragments;
 
 import android.app.ProgressDialog;
 import android.content.ContentResolver;
@@ -19,8 +19,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.todo.Activites.WelcomeActivity;
-import com.example.todo.R;
+import com.vclassrooms.todo.Activites.WelcomeActivity;
+import com.vclassrooms.todo.R;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;

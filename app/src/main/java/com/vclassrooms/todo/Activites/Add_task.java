@@ -1,4 +1,4 @@
-package com.example.todo.Activites;
+package com.vclassrooms.todo.Activites;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,9 +19,9 @@ import android.widget.TimePicker;
 import android.widget.Toast;
 //import android.app.TimePickerDialog;
 import com.allyants.notifyme.NotifyMe;
-import com.example.todo.Fragments.TaskFragment;
-import com.example.todo.Fragments.TimePickerFragment;
-import com.example.todo.R;
+import com.vclassrooms.todo.Fragments.TaskFragment;
+import com.vclassrooms.todo.Fragments.TimePickerFragment;
+import com.vclassrooms.todo.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.tasks.OnCompleteListener;

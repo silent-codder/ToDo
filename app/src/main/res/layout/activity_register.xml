@@ -21,12 +21,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="Sponsored by"
+        android:text="Powered by"
         android:gravity="center"
         android:layout_below="@id/login"/>
     <ImageView
         android:layout_below="@+id/text"
-        android:layout_width="100dp"
+        android:layout_width="170dp"
         android:layout_height="100dp"
         android:src="@drawable/vclassroom"
         android:layout_alignParentBottom="true"
@@ -219,6 +219,7 @@
 
     <TextView
         android:id="@+id/login"
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Already User ? Login"

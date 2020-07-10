@@ -1,4 +1,4 @@
-package com.example.todo.Activites;
+package com.vclassrooms.todo.Activites;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,10 +8,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import com.example.todo.Fragments.DashboardFragment;
-import com.example.todo.Fragments.ProfileFragment;
-import com.example.todo.Fragments.TaskFragment;
-import com.example.todo.R;
+import com.vclassrooms.todo.Fragments.DashboardFragment;
+import com.vclassrooms.todo.Fragments.ProfileFragment;
+import com.vclassrooms.todo.Fragments.TaskFragment;
+import com.vclassrooms.todo.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package com.example.todo.Fragments;
+package com.vclassrooms.todo.Fragments;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
@@ -28,9 +28,9 @@ import com.anychart.enums.LegendLayout;
 import com.anychart.enums.Position;
 import com.anychart.enums.TooltipPositionMode;
 import com.anychart.scales.OrdinalColor;
-import com.example.todo.Model.DataPoint;
-import com.example.todo.Model.Task;
-import com.example.todo.R;
+import com.vclassrooms.todo.Model.DataPoint;
+import com.vclassrooms.todo.Model.Task;
+import com.vclassrooms.todo.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.firebase.auth.FirebaseAuth;

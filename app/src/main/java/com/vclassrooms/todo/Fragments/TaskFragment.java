@@ -1,4 +1,4 @@
-package com.example.todo.Fragments;
+package com.vclassrooms.todo.Fragments;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -15,10 +15,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.example.todo.Activites.Add_task;
-import com.example.todo.Model.Task;
-import com.example.todo.R;
-import com.example.todo.ViewHolder.TaskViewHolder;
+import com.vclassrooms.todo.Activites.Add_task;
+import com.vclassrooms.todo.Model.Task;
+import com.vclassrooms.todo.R;
+import com.vclassrooms.todo.ViewHolder.TaskViewHolder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;

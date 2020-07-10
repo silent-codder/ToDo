@@ -1,20 +1,21 @@
-package com.example.todo.Activites;
+package com.vclassrooms.todo.Activites;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
-import com.example.todo.R;
+import com.vclassrooms.todo.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class WelcomeActivity extends AppCompatActivity {
 
-    ImageButton btn_start;
+    Button btn_start;
     private AdView adView;
     AdRequest adRequest;
 
@@ -23,7 +24,7 @@ public class WelcomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
 
-        btn_start = (ImageButton) findViewById(R.id.btn_start);
+        btn_start = (Button) findViewById(R.id.btn_start);
         adView = (AdView) findViewById(R.id.ad_view);
         adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);
