@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/gradient_bg">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottie"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:lottie_rawRes="@raw/clock"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+        <LinearLayout
+            android:id="@+id/title_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_toEndOf="@id/lottie">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:layout_marginLeft="5dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/mdtp_white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9 July 2020"
+                android:textSize="10sp"
+                android:layout_marginRight="30dp"
+                android:textColor="@color/mdtp_white"
+                android:textStyle="italic|bold"/>
+
+        </LinearLayout>
+        //time
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="35dp"
+            android:layout_alignParentRight="true">
+
+            <TextView
+                android:id="@+id/fromTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:30 PM"
+                android:textSize="10sp"
+                android:textColor="@color/mdtp_white"
+                android:textStyle="italic|bold"/>
+<!--            <TextView-->
+<!--                android:id="@+id/toTime"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text=""-->
+<!--                android:textSize="10sp"-->
+<!--                android:textColor="@color/mdtp_white"-->
+<!--                android:textStyle="italic|bold"/>-->
+
+        </LinearLayout>
+        //subPoints
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/title_"
+            android:layout_toEndOf="@id/lottie">
+
+            <TextView
+                android:id="@+id/subPoints"
+                android:fontFamily="serif-monospace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.\n2."
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/mdtp_white"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

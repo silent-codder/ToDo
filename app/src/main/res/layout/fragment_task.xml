@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="58dp"
+    tools:context=".Fragments.TaskFragment">
+
+
+
+    <TextView
+        android:id="@+id/task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tasks"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add task"
+        android:layout_marginTop="2dp"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="28dp"
+        android:padding="12dp"/>
+    <TextView
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Create new tasks !!"
+        android:textStyle="bold|italic"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To show your tasks required \n internet connection !! "
+        android:gravity="center"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/create"/>
+
+    <ImageView
+        android:id="@+id/add_task"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/ic_add_task"
+       android:layout_alignParentRight="true" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/add_task"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/recycleView"/>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner_ad_unit_id"
+        />
+
+</RelativeLayout>

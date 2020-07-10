@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">To Do</string>
+    <string name="title_activity_main">Task</string>
+    <string name="title_activity_task">Task</string>
+    <string name="Time">value</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5262857206012331/4638358328</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/welcomepage_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activites.WelcomeActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:layout_centerHorizontal="true"
+        android:textSize="55dp"
+        android:textColor="@color/colorAccent"
+        android:paddingTop="200dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_below="@id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:text="Day planner and tasks scheduler app, including to do list and reminder."
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Now"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/about"
+        android:layout_marginTop="115dp"
+        android:layout_marginLeft="30dp"/>
+
+    <ImageButton
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/right_arrow"
+        android:layout_below="@id/about"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/right_arrow_bg"
+        android:padding="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sponsored by Vclassrooms"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/mdtp_white"/>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+       android:layout_alignParentTop="true"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner_ad_unit_id"
+        />
+
+</RelativeLayout>
